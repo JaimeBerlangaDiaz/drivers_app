@@ -1,16 +1,17 @@
-# movies_app
+# Drivers App - F1 🏎️
 
-A new Flutter project.
+Aplicación móvil desarrollada con **Flutter** que muestra información en tiempo real de los pilotos de Fórmula 1 utilizando la API pública de **OpenF1**.
 
-## Getting Started
+## 🚀 Funcionalidades
+- **Visualización dinámica**: Carrusel de pilotos destacados (Swiper) y lista completa de la parrilla.
+- **Gestión de estado**: Uso de `Provider` para manejar los datos de la API de forma global.
+- **Detalles técnicos**: 
+  - Colores dinámicos según la escudería del piloto.
+  - Lógica para encontrar automáticamente al compañero de equipo.
+  - Manejo de errores en imágenes con sistema de respaldo (fallback).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologías utilizadas
+- Flutter & Dart
+- Provider (Gestión de estado)
+- HTTP (Peticiones a la API)
+- Card Swiper (Interfaz visual)
